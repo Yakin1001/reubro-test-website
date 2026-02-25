@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* Banner background image */
+.banner {
+
+    height: 800px;
+
+    background-image: url("bg.jpeg");
+
+    background-size:cover;
+
+    background-position: center;
+
+    color: rgb(255, 255, 255);
+}
+
+
+/* Navbar */
+.navbar {
+
+     background: linear-gradient(to right, rgb(231, 231, 231), rgb(58, 48, 48));
+
+    color: rgb(224, 224, 224);
+
+    padding: 44px;
+}
+
+
+/* Content area */
+.content {
+
+    padding: 100px;
+}
+
+
+/* navbar layout */
+.navbar {
+
+    background: rgb(71, 152, 185);
+
+    padding: 15px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+/* dropdown container */
+.dropdown {
+
+    position: relative;
+
+    display: inline-block;
+
+    margin-left: 20px;
+}
+
+
+/* button */
+.dropbtn {
+
+    background: white;
+
+    border: none;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+
+/* dropdown content (hidden by default) */
+.dropdown-content {
+
+    display: none;
+
+    position: absolute;
+
+    background: white;
+
+    min-width: 150px;
+
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+
+/* dropdown items */
+.dropdown-content a {
+
+    display: block;
+
+    padding: 10px;
+
+    text-decoration: none;
+
+    color: black;
+}
+
+
+/* hover effect */
+.dropdown-content a:hover {
+
+    background: rgb(255, 0, 0);
+}
+
+
+/* show dropdown on hover */
+.dropdown:hover .dropdown-content {
+
+    display: block;
+}
+
+
+
+/* Cards container */
+.cards {
+
+    display: flex;
+
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+
+/* Single card */
+.card {
+
+    background: white;
+
+    color: black;
+
+    padding: 20px;
+
+    width: 250px;
+
+    border-radius: 5px;
+}

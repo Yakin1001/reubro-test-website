@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Banner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="banner">
+
+        <div class="navbar">
+            <h2>Reubro Asset Management System</h2>
+        </div>
+
+        <div class="content">
+            <h1>Reubro Asset Management System</h1>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Automated Efficiency</h3>
+                    <p>Eliminate manual errors with automated workflows.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Customer Retention</h3>
+                    <p>Improve customer retention and revenue.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Customer Confidence</h3>
+                    <p>Increase trust with automation.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
