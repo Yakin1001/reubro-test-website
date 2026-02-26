@@ -94,3 +94,7 @@ body {
 .contact-form button:hover {
     background: #00bcd4;
 }
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
